@@ -596,11 +596,6 @@ PrefabInstance:
       propertyPath: capture
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3527461252337202468, guid: 53574fdeb64a2464998b7d6c2e509c62,
-        type: 3}
-      propertyPath: xefPath
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3527461252633787244, guid: 53574fdeb64a2464998b7d6c2e509c62,
         type: 3}
       propertyPath: m_CountProperty.m_Name

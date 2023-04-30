@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3527461251274409228}
   m_Layer: 0
-  m_Name: KinectXEFPlayer
+  m_Name: KinectPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDelay: 0
-  xefPath: O:\Production\Projects\Everywhen\KinectData\final_recording_pt2.xef
+  xefPath: 
   fromStreamingAssets: 0
   useCustomFPS: 1
   customFPS: 30
