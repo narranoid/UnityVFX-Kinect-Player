@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f934c3da015b40f47a69ca3aea0baa60
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - colorConvertShader: {fileID: 4800000, guid: 784271dc1f3328d40abfdb910f038d9b,
+      type: 3}
+  - depthConvertShader: {fileID: 4800000, guid: dde356aedb013ab46a483ed4edf74a36,
+      type: 3}
+  - bodyIndexConvertShader: {fileID: 4800000, guid: 7de119074b513214ea19bbc42f1a90c5,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

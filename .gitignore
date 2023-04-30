@@ -25,7 +25,6 @@ build/
 *_i.c
 *_p.c
 *.ilk
-*.meta
 *.obj
 *.pch
 *.pdb
@@ -159,3 +158,5 @@ $RECYCLE.BIN/
 XEFExtract/Properties/launchSettings.json
 XEFExtract/Properties/launchSettings.json
 XEFExtract/Properties/launchSettings.json
+/PreviewScreenshot.png.meta
+/README.md.meta
