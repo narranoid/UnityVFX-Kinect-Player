@@ -1,0 +1,539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3527461251274409219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3527461251274409228}
+  m_Layer: 0
+  m_Name: KinectXEFPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3527461251274409228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461251274409219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.455, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3527461252337202469}
+  - {fileID: 3527461252633787240}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3527461252337202491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3527461252337202469}
+  - component: {fileID: 3527461252337202468}
+  m_Layer: 0
+  m_Name: __XEF_Player
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3527461252337202469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461252337202491}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.54, y: 0.735, z: 0.137249}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3527461251274409228}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3527461252337202468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461252337202491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f934c3da015b40f47a69ca3aea0baa60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDelay: 0
+  xefPath: O:\Production\Projects\Everywhen\KinectData\final_recording_pt2.xef
+  fromStreamingAssets: 0
+  useCustomFPS: 1
+  customFPS: 30
+  playEveryFrame: 0
+  croppingEnabled: 0
+  cropStart: 600
+  stopAtFrame: 0
+  colorResolution: {x: 1920, y: 1080}
+  colorConvertShader: {fileID: 4800000, guid: 784271dc1f3328d40abfdb910f038d9b, type: 3}
+  depthResolution: {x: 512, y: 424}
+  depthConvertShader: {fileID: 4800000, guid: dde356aedb013ab46a483ed4edf74a36, type: 3}
+  bodyIndexConvertShader: {fileID: 4800000, guid: 7de119074b513214ea19bbc42f1a90c5,
+    type: 3}
+--- !u!1 &3527461252633787235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3527461252633787240}
+  - component: {fileID: 3527461252633787247}
+  - component: {fileID: 3527461252633787246}
+  - component: {fileID: 3527461252633787245}
+  - component: {fileID: 3527461252633787244}
+  m_Layer: 0
+  m_Name: __XEF_VisualEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3527461252633787240
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461252633787235}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3527461251274409228}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &3527461252633787247
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461252633787235}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: b19262df45b11f04c8495e2d45ba10f1, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 2.73
+        m_Name: XYScale_Uniform
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: DepthScale
+        m_Overridden: 1
+      - m_Value: 0.16
+        m_Name: HueRange
+        m_Overridden: 1
+      - m_Value: 0.484
+        m_Name: SaturationRange
+        m_Overridden: 1
+      - m_Value: -0.7
+        m_Name: ValueRange
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: GradientDistribution
+        m_Overridden: 1
+      - m_Value: 1.26
+        m_Name: XYScale
+        m_Overridden: 1
+      - m_Value: 0.3
+        m_Name: MaxJointDistance
+        m_Overridden: 1
+      - m_Value: 4.6
+        m_Name: MaxFrameDepthOffset
+        m_Overridden: 1
+      - m_Value: 0.014
+        m_Name: PointSize
+        m_Overridden: 1
+      - m_Value: 0.08
+        m_Name: Brightness
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Saturation
+        m_Overridden: 1
+      - m_Value: 0.04
+        m_Name: ColorFXMix
+        m_Overridden: 1
+      - m_Value: 0.3
+        m_Name: Contrast
+        m_Overridden: 1
+      - m_Value: 0.33
+        m_Name: HueRange2
+        m_Overridden: 1
+      - m_Value: 0.23
+        m_Name: SaturationRange2
+        m_Overridden: 1
+      - m_Value: 0.05
+        m_Name: ValueRange2
+        m_Overridden: 1
+      - m_Value: 1.4
+        m_Name: GhostParticleSizeMultiplier
+        m_Overridden: 1
+      - m_Value: 0.02
+        m_Name: GhostParticleRatio
+        m_Overridden: 1
+      - m_Value: 0.1
+        m_Name: BrightenFX
+        m_Overridden: 1
+      - m_Value: 0.03
+        m_Name: PositionNoise
+        m_Overridden: 1
+      - m_Value: 0.33
+        m_Name: GhostingInterval
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: GhostingAlphaScale
+        m_Overridden: 1
+      - m_Value: 0.0001
+        m_Name: PositionNoiseSpeed
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Alpha
+        m_Overridden: 1
+      - m_Value: 0.3
+        m_Name: ParticleDensity
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array:
+      - m_Value: {x: 16, y: 9}
+        m_Name: XYScale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0.91}
+        m_Name: ClippingRange
+        m_Overridden: 1
+      - m_Value: {x: 16, y: 9}
+        m_Name: XYAspect
+        m_Overridden: 1
+      - m_Value: {x: 1.8, y: 4.8}
+        m_Name: ClippingRangeZ
+        m_Overridden: 1
+      - m_Value: {x: 0.1, y: 0.85}
+        m_Name: ClippingRangeX
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 1}
+        m_Name: ClippingRangeY
+        m_Overridden: 1
+      - m_Value: {x: 0.5, y: 1}
+        m_Name: SizeRandomMultiplier
+        m_Overridden: 1
+      - m_Value: {x: 0.3, y: 2}
+        m_Name: GhostingLifetime
+        m_Overridden: 1
+    m_Vector3f:
+      m_Array:
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: ClippingBox_size
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: ClippingBox_center
+        m_Overridden: 1
+      - m_Value: {x: 1, y: 1, z: 1}
+        m_Name: Scale
+        m_Overridden: 1
+      - m_Value: {x: 0, y: 0, z: 0}
+        m_Name: Pivot
+        m_Overridden: 1
+    m_Vector4f:
+      m_Array:
+      - m_Value: {x: 0.105882354, y: 0.28627452, z: 0.09803922, w: 1}
+        m_Name: KeyColor
+        m_Overridden: 1
+      - m_Value: {x: 0.2901961, y: 0.34509805, z: 0.23921569, w: 0}
+        m_Name: KeyColor2
+        m_Overridden: 1
+    m_Uint:
+      m_Array:
+      - m_Value: 2073600
+        m_Name: PointCount
+        m_Overridden: 1
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: -1.0751231
+            outSlope: -0.09252637
+            tangentMode: 1
+            weightedMode: 3
+            inWeight: 0
+            outWeight: 0.33918658
+          - serializedVersion: 3
+            time: 0.060105857
+            value: 1
+            inSlope: -0.14244674
+            outSlope: -0.14244674
+            tangentMode: 1
+            weightedMode: 3
+            inWeight: 0.32753193
+            outWeight: 0.6117512
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: -1.1568576
+            outSlope: -1.2864715
+            tangentMode: 1
+            weightedMode: 3
+            inWeight: 0.23307717
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: GhostingAlphaCurve
+        m_Overridden: 1
+    m_Gradient:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          key0: {r: 1.1550642, g: 4.711978, b: 5.6568537, a: 0}
+          key1: {r: 0, g: 5.8075943, b: 0.22874917, a: 1}
+          key2: {r: 4.570484, g: 0.1849194, b: 0.047858562, a: 1}
+          key3: {r: 3.3860724, g: 3.5228894, b: 0.18279146, a: 0}
+          key4: {r: 0.18039215, g: 0.4534081, b: 1, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 16411
+          ctime2: 31641
+          ctime3: 45585
+          ctime4: 60923
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 2145
+          atime2: 63175
+          atime3: 65535
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_NumColorKeys: 5
+          m_NumAlphaKeys: 4
+        m_Name: ColorGradient1
+        m_Overridden: 1
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: 0}
+        m_Name: ColorTexture
+        m_Overridden: 1
+      - m_Value: {fileID: 0}
+        m_Name: DepthTexture
+        m_Overridden: 1
+    m_Bool:
+      m_Array:
+      - m_Value: 0
+        m_Name: EnableKeying
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: JointDistanceMask
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: IncludeJointDepth
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: FrameDepthOffsetMask
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Clipping
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: BodyIndexMask
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: EnableKeying2
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: ClippingKill
+        m_Overridden: 1
+--- !u!73398921 &3527461252633787246
+VFXRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461252633787235}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &3527461252633787245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461252633787235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdafc37f32b176349b1684c4455b98e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExecuteInEditor: 1
+  m_Bindings:
+  - {fileID: 3527461252633787244}
+  m_VisualEffect: {fileID: 3527461252633787247}
+--- !u!114 &3527461252633787244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527461252633787235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f51116cf59ec9a40a72439940453cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CountProperty:
+    m_Name: PointCount
+  m_ColorTextureProperty:
+    m_Name: ColorTexture
+  m_DepthTextureProperty:
+    m_Name: DepthTexture
+  m_BodyIndexTextureProperty:
+    m_Name: BodyIndexTexture
+  m_ColorProjectionMatrixProperty:
+    m_Name: ColorProjectionMatrix
+  jointMappings:
+  - vfxProperty:
+      m_Name: SpineBase
+    xefJoint: 0
+  - vfxProperty:
+      m_Name: SpineMid
+    xefJoint: 1
+  - vfxProperty:
+      m_Name: Neck
+    xefJoint: 2
+  - vfxProperty:
+      m_Name: Head
+    xefJoint: 3
+  - vfxProperty:
+      m_Name: ShoulderLeft
+    xefJoint: 4
+  - vfxProperty:
+      m_Name: ElbowLeft
+    xefJoint: 5
+  - vfxProperty:
+      m_Name: WristLeft
+    xefJoint: 6
+  - vfxProperty:
+      m_Name: HandLeft
+    xefJoint: 7
+  - vfxProperty:
+      m_Name: ShoulderRight
+    xefJoint: 8
+  - vfxProperty:
+      m_Name: ElbowRight
+    xefJoint: 9
+  - vfxProperty:
+      m_Name: WristRight
+    xefJoint: 10
+  - vfxProperty:
+      m_Name: HandRight
+    xefJoint: 11
+  - vfxProperty:
+      m_Name: HipLeft
+    xefJoint: 12
+  - vfxProperty:
+      m_Name: KneeLeft
+    xefJoint: 13
+  - vfxProperty:
+      m_Name: AnkleLeft
+    xefJoint: 14
+  - vfxProperty:
+      m_Name: FootLeft
+    xefJoint: 15
+  - vfxProperty:
+      m_Name: HipRight
+    xefJoint: 16
+  - vfxProperty:
+      m_Name: KneeRight
+    xefJoint: 17
+  - vfxProperty:
+      m_Name: AnkleRight
+    xefJoint: 18
+  - vfxProperty:
+      m_Name: FootRight
+    xefJoint: 19
+  - vfxProperty:
+      m_Name: SpineShoulder
+    xefJoint: 20
+  - vfxProperty:
+      m_Name: HandTipLeft
+    xefJoint: 21
+  - vfxProperty:
+      m_Name: ThumbLeft
+    xefJoint: 22
+  - vfxProperty:
+      m_Name: HandTipRight
+    xefJoint: 23
+  - vfxProperty:
+      m_Name: ThumbRight
+    xefJoint: 24
+  syncVisualEffectWithPlayer: 0
+  player: {fileID: 3527461252337202468}
